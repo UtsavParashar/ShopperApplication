@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ShopperApplication</string>
+    <string name="action_settings">Settings</string>
+    
+    <!-- global strings -->
+    <string name="submit_button">Submit</string>
+    <string name="cancel_button">Cancel</string>
+    
+    <!-- loginPage strings  -->
+    <string name="phone_number_digits">Phone Number should have 10 digits</string>
+    <string name="login_phone_number_hint">Phone Number</string>
+    <string name="sms_sent_verification_code">Message Sent with verification code</string>
+    <string name="sms_sending_failed">Message sending failed, please try again</string>
+    
+    <!-- verificationPage strings -->
+    <string name="verification_verification_code_textView">Enter verification code</string>
+    <string name="verification_verification_code_EditText">verification code</string>
+    <string name="verification_code_not_match_toast">Entered code does not match with the code we\'d sent!!</string>
+    
+
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background" >
+
+    <EditText
+        android:id="@+id/login_phone_number_editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:hint="@string/login_phone_number_hint"
+        android:inputType="phone"
+        android:maxLength="10"
+        android:layout_marginLeft="90dp"
+        android:layout_marginRight="90dp"
+        android:textColorHint="@color/black">
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/login_submit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_phone_number_editText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp"
+        android:text="@string/submit_button"
+        android:background="@color/widgets"
+        android:textColorHighlight="@color/gray"/>
+    
+</RelativeLayout>

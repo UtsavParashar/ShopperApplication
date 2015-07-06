@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- help screen -->
+    <color name="background">#FFF5EE</color> <!-- sea shell -->
+    <color name="widgets">#FF6347</color> <!-- tomato -->
+    
+    <!-- standard color values -->
+    <color name="black">#000000</color>
+    <color name="gray">#808080</color>
+</resources>
